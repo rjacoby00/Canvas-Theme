@@ -1,5 +1,5 @@
 # Canvas-Theme
-UserCSS to revert Canvas' planner course title alignment to centered.
+UserCSS to revert Canvas' planner course title alignment to centered.  Feel free to pull request to add more URLs to the regex.
 
 ## Preview
 ![Classic Canvas Preview](canvas_after.png)
