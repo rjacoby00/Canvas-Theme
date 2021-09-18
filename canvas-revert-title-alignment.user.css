@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Canvas Revert Course Title in Planner
 @namespace      StylishThemes
-@version        0.1.1
+@version        0.1.2
 @description    Center-alligns course titles in Canvas classic planner
 @author         Ryan Jacoby
 @homepageURL    https://github.com/rjacoby00/Canvas-Theme
@@ -9,7 +9,7 @@
 @license        APGLv3
 ==/UserStyle== */
 
-@-moz-document regexp(".*://.*instructure.com.*") {
+@-moz-document regexp(".*://.*instructure.com.*"), regexp(".*://canvas.*.edu.*") {
     .Grouping-styles__title {
         border-top-left-radius: 0;
     }
